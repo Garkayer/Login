@@ -25,7 +25,7 @@ function obtenerBaseDeDatos()
     // Nota: rellena con tus credenciales
     $nombre_base_de_datos = "usuarios_login";
     $usuario = "root";
-    $contraseña = "";
+    $contraseña = "123456";
     try {
 
         $base_de_datos = new PDO('mysql:host=localhost;dbname=' . $nombre_base_de_datos, $usuario, $contraseña);
